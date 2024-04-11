@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makaan - Real Estate HTML Template</title>
+
+    <!-- bootstrap link  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- fav icon  -->
+    <link rel="stylesheet" href="assets/img/icon-deal.png">
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <header class="position-sticky top-0" style="z-index: 999;">
+        <nav class="navbar navbar-expand-lg navbar-light p-0 " style="z-index: 999999;">
+            <div class="container bg-light p-2 px-4" style="box-shadow: 0px 0px 4px -2px black;">
+                <a class="navbar-brand d-flex" href="#">
+                    <img src="assets/img/icon-deal.png" alt="">
+                    <h1 class="text-primary">Makaan</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-primary" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-secondary" style="font-weight: 600;" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-secondary" style="font-weight: 600;" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                PROPRTIES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">PROPERTY LIST</a></li>
+                                <li><a class="dropdown-item" href="#">PROPERTY TYPE</a></li>
+                                <li><a class="dropdown-item" href="#">PROPERTY AGENT</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-secondary" style="font-weight: 600;" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                PAGES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">TESTIMONIAL</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" style="font-weight: 600;" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-success" type="submit">Add Property</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex">
+                    <div class="col-6 bg-light p-0">
+                        <div class="banner-content">
+                            <h2 style="font-size: 48px; font-weight: 700;" class="text-secondary">Find A <span
+                                    class="text-primary">Perfect Home</span> To Live With Your Family</h2>
+                            <p> Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et
+                                diam justo clita et kasd rebum sea elitr.</p>
+                            <a href="#">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="col-6 p-0">
+                        <div id="carouselExampleInterval" class="carousel slide p-0 m-0" data-bs-ride="carousel">
+                            <div class="carousel-inner d-flex">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="assets/img/carousel-1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="assets/img/carousel-2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form d-flex">
+                        <input type="text" placeholder="Search Keyword">
+                        <input type="text" placeholder="Property Type">
+                        <input type="text" placeholder="Location ">
+                        <a href="#">search</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="type" id="type">
+        <div class="container" style="background-color: #fff;">
+            <div class="row " style="padding: 48px 12px;">
+                <div class="head mx-auto my-5 " style="text-align: center; width: 650px;">
+                    <h2 style="font-size: 40px; color: #0e2e50;">Property Types</h2>
+                    <p style="color: #666565;">Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore
+                        lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                </div>
+
+                <div class="col-12 d-flex my-3">
+                    <div class="col-3" style="width: 300px; margin: 0 10px;">
+                        <div class="card p-4 border-0" style=" background-color: #effdf5; ">
+                            <div class="box bg-light p-3 text-center"
+                                style="box-shadow: 0px 0px 3px -2px #0e2e50; background-color: #fff;">
+                                <div class="card-img mx-auto"
+                                    style=" width: 80px; border: 1px dashed #00b98e;  padding: 16px; margin-bottom: 16px; border-radius: 50px; ">
+                                    <img src="assets/img/icon-apartment.png" alt="">
+                                </div>
+                                <div class="content ">
+                                    <span
+                                        style="color: #0e2e50; font-weight: 700; margin-bottom: 10px;">Apartment</span>
+                                    <p style="color: #00b98e;">123 Properties</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3" style="width: 300px; margin: 0 10px;">
+                        <div class="card p-4 border-0" style=" background-color: #effdf5; ">
+                            <div class="box bg-light p-3 text-center"
+                                style="box-shadow: 0px 0px 3px -2px #0e2e50; background-color: #fff;">
+                                <div class="card-img mx-auto"
+                                    style=" width: 80px; border: 1px dashed #00b98e;  padding: 16px; margin-bottom: 16px; border-radius: 50px; ">
+                                    <img src="assets/img/icon-villa.png" alt="">
+                                </div>
+                                <div class="content ">
+                                    <span style="color: #0e2e50; font-weight: 700; margin-bottom: 10px;">Villa</span>
+                                    <p style="color: #00b98e;">123 Properties</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3" style="width: 300px; margin: 0 10px;">
+                        <div class="card p-4 border-0" style=" background-color: #effdf5; ">
+                            <div class="box bg-light p-3 text-center"
+                                style="box-shadow: 0px 0px 3px -2px #0e2e50; background-color: #fff;">
+                                <div class="card-img mx-auto"
+                                    style=" width: 80px; border: 1px dashed #00b98e;  padding: 16px; margin-bottom: 16px; border-radius: 50px; ">
+                                    <img src="assets/img/icon-house.png" alt="">
+                                </div>
+                                <div class="content ">
+                                    <span style="color: #0e2e50; font-weight: 700; margin-bottom: 10px;">Home</span>
+                                    <p style="color: #00b98e;">123 Properties</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3" style="width: 300px; margin: 0 10px;">
+                        <div class="card p-4 border-0" style=" background-color: #effdf5; ">
+                            <div class="box bg-light p-3 text-center"
+                                style="box-shadow: 0px 0px 3px -2px #0e2e50; background-color: #fff;">
+                                <div class="card-img mx-auto"
+                                    style=" width: 80px; border: 1px dashed #00b98e;  padding: 16px; margin-bottom: 16px; border-radius: 50px; ">
+                                    <img src="assets/img/icon-apartment.png" alt="">
+                                </div>
+                                <div class="content ">
+                                    <span style="color: #0e2e50; font-weight: 700; margin-bottom: 10px;">House</span>
+                                    <p style="color: #00b98e;">123 Properties</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex  my-3">
+                    <div class="col-3" style="width: 300px; margin: 0 10px;">
+                        <div class="card p-4 border-0" style=" background-color: #effdf5; ">
+                            <div class="box bg-light p-3 text-center"
+                                style="box-shadow: 0px 0px 3px -2px #0e2e50; background-color: #fff;">
+                                <div class="card-img mx-auto"
+                                    style=" width: 80px; border: 1px dashed #00b98e;  padding: 16px; margin-bottom: 16px; border-radius: 50px; ">
+                                    <img src="assets/img/icon-building.png" alt="">
+                                </div>
+                                <div class="content ">
+                                    <span style="color: #0e2e50; font-weight: 700; margin-bottom: 10px;">Building</span>
+                                    <p style="color: #00b98e;">123 Properties</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3" style="width: 300px; margin: 0 10px;">
+                        <div class="card p-4 border-0" style=" background-color: #effdf5; ">
+                            <div class="box bg-light p-3 text-center"
+                                style="box-shadow: 0px 0px 3px -2px #0e2e50; background-color: #fff;">
+                                <div class="card-img mx-auto"
+                                    style=" width: 80px; border: 1px dashed #00b98e;  padding: 16px; margin-bottom: 16px; border-radius: 50px; ">
+                                    <img src="assets/img/icon-neighborhood.png" alt="">
+                                </div>
+                                <div class="content ">
+                                    <span
+                                        style="color: #0e2e50; font-weight: 700; margin-bottom: 10px;">Townhouse</span>
+                                    <p style="color: #00b98e;">123 Properties</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3" style="width: 300px; margin: 0 10px;">
+                        <div class="card p-4 border-0" style=" background-color: #effdf5; ">
+                            <div class="box bg-light p-3 text-center"
+                                style="box-shadow: 0px 0px 3px -2px #0e2e50; background-color: #fff;">
+                                <div class="card-img mx-auto"
+                                    style=" width: 80px; border: 1px dashed #00b98e;  padding: 16px; margin-bottom: 16px; border-radius: 50px; ">
+                                    <img src="assets/img/icon-condominium.png" alt="">
+                                </div>
+                                <div class="content ">
+                                    <span style="color: #0e2e50; font-weight: 700; margin-bottom: 10px;">Shop</span>
+                                    <p style="color: #00b98e;">123 Properties</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3" style="width: 300px; margin: 0 10px;">
+                        <div class="card p-4 border-0" style=" background-color: #effdf5; ">
+                            <div class="box bg-light p-3 text-center"
+                                style="box-shadow: 0px 0px 3px -2px #0e2e50; background-color: #fff;">
+                                <div class="card-img mx-auto"
+                                    style=" width: 80px; border: 1px dashed #00b98e;  padding: 16px; margin-bottom: 16px; border-radius: 50px; ">
+                                    <img src="assets/img/icon-luxury.png" alt="">
+                                </div>
+                                <div class="content ">
+                                    <span style="color: #0e2e50; font-weight: 700; margin-bottom: 10px;">Garage</span>
+                                    <p style="color: #00b98e;">123 Properties</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about" style="margin: 0px 0 60px;">
+        <div class="container">
+            <div class="row row-cols-2 align-items-center p-5" style="background-color: #fff;">
+
+                <div class="about-img position-relative ">
+                    <img class="img img-fluid rounded-5 " src="assets/img/about.jpg">
+                    <img class="img img-fluid rounded-5 position-absolute" style="box-shadow: 2px 2px 10px -1px black;"
+                        src="assets/img/about2.jpg">
+                </div>
+                <div class="about-block position-absolute"></div>
+
+                <div class="about-content position-relative">
+                    <h2 style="font-size: 40px; color: #0e2e50; font-weight: 700;">#1 Place To Find The Perfect Property
+                    </h2>
+                    <P class="mt-5 mb-2 pb-3" style="color: #666565; font-weight: 500;">
+                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
+                        erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    </P>
+                    <ul class="p-0">
+                        <li class="mb-2"><i class="fa-solid fa-check text-primary py-2 pe-2"></i>Tempor erat elitr rebum
+                            at clita</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-primary py-2 pe-2"></i>Aliqu diam amet diam et
+                            eos</li>
+                        <li class="mb-5"><i class="fa-solid fa-check text-primary py-2 pe-2"></i>Clita duo justo magna
+                            dolore erat amet</li>
+                    </ul>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="listing" id="listing">
+        <div class="container" style="background-color: #fff;">
+            <div class="row" style="padding: 48px 12px;">
+                <div class="head my-5 " style=" width: 650px;">
+                    <h2 style="font-size: 40px; color: #0e2e50;">Property Listing</h2>
+                    <p style="color: #666565;">Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore
+                        lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                </div>
+
+                <div class="col-12 d-flex py-3">
+                    <div class="col-3 mx-auto" style="overflow: hidden;">
+                        <div class="card">
+                            <div class="card-img pb-3 rounded-2  text-center">
+                                <img src="assets/img/property-1.jpg" style="box-shadow: 2px 2px 5px -1px black;"
+                                    width="400px" alt="">
+                            </div>
+                            <div class="card-content p-3">
+                                <h2 style="font-size: 20px; color: #00b98e;">Apartment: $12,345</h2>
+                                <span style="font-size: 20px; font-weight: 700;">Golden Urban House For Sell</span>
+                                <p style="color: #666565; margin-top: 8px;"><i
+                                        class="fa-solid fa-location-dot text-primary"></i> 123 Street, New York, USA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3 mx-auto" style="overflow: hidden;">
+                        <div class="card">
+                            <div class="card-img pb-3 rounded-2  text-center">
+                                <img src="assets/img/property-2.jpg" style="box-shadow: 2px 2px 5px -1px black;"
+                                    width="400px" alt="">
+                            </div>
+                            <div class="card-content p-3">
+                                <h2 style="font-size: 20px; color: #00b98e;">Villa: $12,345</h2>
+                                <span style="font-size: 20px; font-weight: 700;">Golden Urban House For Sell</span>
+                                <p style="color: #666565; margin-top: 8px;"><i
+                                        class="fa-solid fa-location-dot text-primary"></i> 123 Street, New York, USA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3 mx-auto" style="overflow: hidden;">
+                        <div class="card">
+                            <div class="card-img pb-3 rounded-2  text-center">
+                                <img src="assets/img/property-3.jpg" style="box-shadow: 2px 2px 5px -1px black;"
+                                    width="400px" alt="">
+                            </div>
+                            <div class="card-content p-3">
+                                <h2 style="font-size: 20px; color: #00b98e;">Office: $12,345</h2>
+                                <span style="font-size: 20px; font-weight: 700;">Golden Urban House For Sell</span>
+                                <p style="color: #666565; margin-top: 8px;"><i
+                                        class="fa-solid fa-location-dot text-primary"></i> 123 Street, New York, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex py-3">
+                    <div class="col-3 mx-auto" style="overflow: hidden;">
+                        <div class="card">
+                            <div class="card-img pb-3 rounded-2  text-center">
+                                <img src="assets/img/property-4.jpg" style="box-shadow: 2px 2px 5px -1px black;"
+                                    width="400px" alt="">
+                            </div>
+                            <div class="card-content p-3">
+                                <h2 style="font-size: 20px; color: #00b98e;">Building: $12,345</h2>
+                                <span style="font-size: 20px; font-weight: 700;">Golden Urban House For Sell</span>
+                                <p style="color: #666565; margin-top: 8px;"><i
+                                        class="fa-solid fa-location-dot text-primary"></i> 123 Street, New York, USA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3 mx-auto" style="overflow: hidden;">
+                        <div class="card">
+                            <div class="card-img pb-3 rounded-2  text-center">
+                                <img src="assets/img/property-5.jpg" style="box-shadow: 2px 2px 5px -1px black;"
+                                    width="400px" alt="">
+                            </div>
+                            <div class="card-content p-3">
+                                <h2 style="font-size: 20px; color: #00b98e;">Home: $12,345</h2>
+                                <span style="font-size: 20px; font-weight: 700;">Golden Urban House For Sell</span>
+                                <p style="color: #666565; margin-top: 8px;"><i
+                                        class="fa-solid fa-location-dot text-primary"></i> 123 Street, New York, USA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3 mx-auto" style="overflow: hidden;">
+                        <div class="card">
+                            <div class="card-img pb-3 rounded-2  text-center">
+                                <img src="assets/img/property-6.jpg" style="box-shadow: 2px 2px 5px -1px black;"
+                                    width="400px" alt="">
+                            </div>
+                            <div class="card-content p-3">
+                                <h2 style="font-size: 20px; color: #00b98e;">Shop: $12,345</h2>
+                                <span style="font-size: 20px; font-weight: 700;">Golden Urban House For Sell</span>
+                                <p style="color: #666565; margin-top: 8px;"><i
+                                        class="fa-solid fa-location-dot text-primary"></i> 123 Street, New York, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" class="mx-auto">Browse More Property</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container" style="background-color: #fff;">
+            <div class="row" style="padding: 48px 12px;">
+                <div class="col-12 d-flex my-3" style=" margin: 0 10px;">
+                    <div class="card p-4 border-0" style=" background-color: #effdf5; ">
+                        <div class="box d-flex bg-light p-3 " style="box-shadow: 0px 0px 3px -2px #0e2e50; background-color: #fff;">
+                            <div class="col-6">
+                                <div class="card-img mx-auto"
+                                style=" padding: 16px; margin-bottom: 16px; border-radius: 50px; ">
+                                <img src="assets/img/call-to-action.jpg" style="border-radius: 10px;" width="100%">
+                            </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="content p-3 py-5">
+                                    <h2 style="color: #0e2e50; font-weight: 700; margin-bottom: 20px; font-size: 40px;">Contact With Our Certified Agent</h2>
+                                    <p style="margin-bottom: 30px; color: #666565; margin-top: 30px;">Eirmod sed ipsum dolor sit rebum magna erat. Tempor lorem kasd vero ipsum sit sit diam justo sed vero dolor duo.
+                                    </p>
+                                    <div class="col-12">
+                                        <a href="#" class="mx-auto"><i class="fa-solid fa-phone pe-2"></i> Make a Call</a>
+                                        <a href="#" class="mx-auto"><i class="fa-solid fa-calendar-days pe-2"></i> Get Appointment</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="agent" id="type">
+        <div class="container" style="background-color: #fff;">
+            <div class="row " style="padding: 48px 12px;">
+                <div class="head mx-auto my-5 " style="text-align: center; width: 650px;">
+                    <h2 style="font-size: 40px; color: #0e2e50;">Our Clients Say!</h2>
+                    <p style="color: #666565;">Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore
+                        lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                </div>
+
+                <div class="col-12 d-flex my-3">
+
+                    <div class="col-6" style=" margin: 0 10px;">
+                        <div class="card p-4 border-0" style=" background-color: #effdf5; ">
+                            <div class="box bg-light p-3"
+                                style="box-shadow: 0px 0px 3px -2px #0e2e50; background-color: #fff;">
+
+                                <div class="content ">
+                                    <p style="color: #666565; text-align: left;">Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore
+                                        lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                                </div>
+
+                               <div class="col--12 d-flex">
+                                <div class="col-">
+                                    <div class="card-img"
+                                    style=" padding: 16px; margin-bottom: 16px; border-radius: 50px; ">
+                                    <img src="assets/img/testimonial-1.jpg" width="70px" alt="">
+                                </div>
+                                </div>
+                                <div class="col-6 pt-3">
+                                    <h5>liza manoban</h5>
+                                    <p>Designer</p>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6" style=" margin: 0 10px;">
+                        <div class="card p-4 border-0" style=" background-color: #effdf5; ">
+                            <div class="box bg-light p-3"
+                                style="box-shadow: 0px 0px 3px -2px #0e2e50; background-color: #fff;">
+
+                                <div class="content ">
+                                    <p style="color: #666565; text-align: left;">Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore
+                                        lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                                </div>
+
+                               <div class="col--12 d-flex">
+                                <div class="col-">
+                                    <div class="card-img"
+                                    style=" padding: 16px; margin-bottom: 16px; border-radius: 50px; ">
+                                    <img src="assets/img/testimonial-2.jpg" width="70px" alt="">
+                                </div>
+                                </div>
+                                <div class="col-6 pt-3">
+                                    <h5>john Park</h5>
+                                    <p>Designer</p>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row bg-secondary pt-5 pb-2">
+                <div class="col-12 d-flex mx-2">
+                    <div class="col-3" style="margin-top: 20px; padding: 0 24px;">
+                        <ul class="p-0">
+                            <span style="color: white; font-weight: 700; font-size: 20px; margin-bottom: 20px;">Get In
+                                Touch</span>
+                            <li style="margin-bottom: 10px; margin-top: 20px;">
+                                <a href="#" style="margin-top: 10px;">
+                                    123 Street, New York, USA
+                                </a>
+                            </li>
+                            <li style="margin-bottom: 10px;">
+                                <a href="#">
+                                    +012 345 67890
+                                </a>
+                            </li>
+                            <li style="margin-bottom: 10px;">
+                                <a href="#">
+                                    info@example.com
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="icons p-0" style=" padding: 0 24px;">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-f " style="padding: 10px 13px;"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-youtube" style="padding: 10px 8px;"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-2" style="margin-top: 20px; padding: 0 24px;">
+                        <ul class="p-0">
+                            <li>
+                                <span style="color: white; font-weight: 700; font-size: 20px;">Quick Links</span>
+                            </li>
+                            <li style="margin-bottom: 8px; margin-top: 20px;">
+                                <a href="#">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    About Us
+                                </a>
+                            </li>
+                            <li style="margin-bottom: 8px;">
+                                <a href="#">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li style="margin-bottom: 8px;">
+                                <a href="#">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    Our Services
+                                </a>
+                            </li>
+                            <li style="margin-bottom: 8px;">
+                                <a href="#">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li style="margin-bottom: 8px;">
+                                <a href="#">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    Terms & Conditions
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-3" style="margin-top: 20px; padding: 0 24px;">
+                        <span style="color: white; font-weight: 700; font-size: 20px;">Photo Gallery</span>
+
+                        <div class="imges">
+                            <div class="col-12 d-flex">
+                                <div class="col-4 mx-2 my-2"><img src="assets/img/property-1.jpg" width="100px"
+                                        style="border: 5px solid white; border-radius: 10px;" alt=""></div>
+                                <div class="col-4 mx-2 my-2"><img src="assets/img/property-2.jpg" width="100px"
+                                        style="border: 5px solid white; border-radius: 10px;" alt=""></div>
+                                <div class="col-4 mx-2 my-2"><img src="assets/img/property-3.jpg" width="100px"
+                                        style="border: 5px solid white; border-radius: 10px;" alt=""></div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <div class="col-4 mx-2"><img src="assets/img/property-4.jpg" width="100px"
+                                        style="border: 5px solid white; border-radius: 10px;" alt=""></div>
+                                <div class="col-4 mx-2"><img src="assets/img/property-5.jpg" width="100px"
+                                        style="border: 5px solid white; border-radius: 10px;" alt=""></div>
+                                <div class="col-4 mx-2"><img src="assets/img/property-6.jpg" width="100px"
+                                        style="border: 5px solid white; border-radius: 10px;" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 ms-5" style="margin: 20px 20px; padding: 0 24px;">
+                        <span style="color: white; font-weight: 700; font-size: 20px;">Newsletter</span>
+                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <a href="#"
+                            style="color: white; background-color: white; padding: 16px 10px; border-radius: 8px;">
+                            <input type="email" style="border: 0;" placeholder="Your email">
+                            <div class="btn my-2" style="color: white; background-color: #00b98e;">
+                                SignUp
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="col-12 d-flex">
+                    <div class="col-9 ps-4">
+                        <span style="color: #ffffff80; ">©Makaan, All Right Reserved. </span>
+                    </div>
+                    <div class="col-4">
+                        <ul class="d-flex">
+                            <li class="ms-3"><a href="index.html">Home</a></li>
+                            <li class="ms-3"><a href="index.html">Cookies</a></li>
+                            <li class="ms-3"><a href="index.html">Help</a></li>
+                            <li class="ms-3"><a href="index.html">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap link -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- js link  -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+
+</body>
+
+</html>
